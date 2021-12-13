@@ -1,0 +1,6 @@
+{
+    "enabled": false,
+    "app_default_domain": "sep6-xsgre.mongodbstitch.com",
+    "default_error_path": "",
+    "default_error_code": ""
+}
