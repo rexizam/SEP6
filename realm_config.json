@@ -4,5 +4,5 @@
     "name": "SEP6",
     "location": "US-VA",
     "deployment_model": "GLOBAL",
-    "environment": "development"
+    "environment": "production"
 }

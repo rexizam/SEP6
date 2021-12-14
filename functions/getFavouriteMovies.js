@@ -4,10 +4,9 @@ exports = async function(arg) {
   console.log(JSON.stringify(currentUser));
   return await collection.findOne({userId: currentUser.id}).then(result => {
     if (result) {
-      console.log("success");
+      return result.favourites;
     } else {
-      console.log("failed");
+      return [];
     }
-    return result.favourites;
   }).catch(error => console.error(error));
 };
